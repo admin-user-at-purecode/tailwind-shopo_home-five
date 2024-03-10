@@ -17,9 +17,11 @@
     "SliderCom",
     "ServiceBanner",
     "DesignCardsSection",
+    "ProductCardOne",
+    "ProductCardTwo",
+    "ViewMoreTitle",
     "BrandSection",
     "CampaignCountDown",
-    "CountDown",
     "ProductsAds",
     "NewArrival",
     "PopularSales",
@@ -119,73 +121,123 @@
     },
     "Home": {
       "count": 1,
-      "location": "",
+      "location": "below Headers and above Footer",
       "children": {
         "Banner": {
           "count": 1,
-          "location": "",
-          "children": {},
-          "description": "",
-          "children_orientation_description": ""
+          "location": "top of the Home",
+          "children": {
+            "SliderCom": {
+              "count": 1,
+              "location": "inside the Banner",
+              "description": "it will Slide the images"
+            },
+            "Shop Now": {
+              "count": 1,
+              "location": "inside the Banner",
+              "description": "it is a flex container"
+            }
+          },
+          "description": "it is a image which has SliderCom",
+          "children_orientation_description": "Shop Now is a flex container"
         },
         "ServiceBanner": {
           "count": 1,
-          "location": "",
-          "children": {},
-          "description": "",
-          "children_orientation_description": ""
+          "location": "below the Banner",
+          "children": {
+            "Free Shipping": 1,
+            "Free Return": 1,
+            "Secure Payment": 1,
+            "Best Quality": 1
+          },
+          "description": "it has four flex containers",
+          "children_orientation_description": "(Free Shipping,Free Return,Secure Payment,Best Quality)-->all are flex containers"
         },
         "DesignCardsSection": {
-          "count": 1,
-          "location": "",
-          "children": {},
-          "description": "",
-          "children_orientation_description": ""
+          "count": 2,
+          "location": "one is below ServiceBanner and other is below CampaignCountDown",
+          "children": {
+            "ProductCardTwo": {
+              "count": 4,
+              "location": "inside DesignCardsSection",
+              "description": "it is a grid item and has a Product image"
+            },
+            "ViewMoreTitle": {
+              "count": 1,
+              "location": "right top side of DesignCardsSection",
+              "description": "it is a flex container"
+            }
+          },
+          "description": "it has a grid container"
         },
         "BrandSection": {
           "count": 1,
-          "location": "",
-          "children": {},
-          "description": "",
-          "children_orientation_description": ""
+          "location": "below DesignCardsSection and above CampaignCountDown",
+          "description": "it has a grid container and 12 images as grid items"
         },
         "CampaignCountDown": {
           "count": 1,
-          "location": "",
-          "children": {},
-          "description": "",
-          "children_orientation_description": ""
+          "location": "below BrandSection",
+          "children": {
+            "Days": 1,
+            "Hours": 1,
+            "Minutes": 1,
+            "Seconds": 1
+          },
+          "description": "it has flex containers",
+          "children_orientation_description": "(Days,Hours,Minutes,Seconds)-->all are flex containers"
         },
         "ProductsAds": {
-          "count": 1,
-          "location": "",
-          "children": {},
-          "description": "",
-          "children_orientation_description": ""
+          "count": 2,
+          "location": "one is above NewArrival and other is below NewArrival",
+          "description": "it is an image"
         },
         "NewArrival": {
           "count": 1,
-          "location": "",
-          "children": {},
-          "description": "",
-          "children_orientation_description": ""
+          "location": "In between two ProductsAds",
+          "children": {
+            "ProductCardTwo": {
+              "count": 12,
+              "location": "inside NewArrival",
+              "description": "it is a grid item and has a Product image"
+            },
+            "ViewMoreTitle": {
+              "count": 1,
+              "location": "right top side of NewArrival",
+              "description": "it is a flex container"
+            }
+          },
+          "description": "it has a grid container"
         },
         "PopularSales": {
           "count": 1,
-          "location": "",
-          "children": {},
-          "description": "",
-          "children_orientation_description": ""
+          "location": "it is above DiscountBanner",
+          "children": {
+            "ProductCardOne": {
+              "count": 12,
+              "location": "inside PopularSales",
+              "description": "it is a grid item and has a Product image"
+            },
+            "ViewMoreTitle": {
+              "count": 1,
+              "location": "right top side of PopularSales",
+              "description": "it is a flex container"
+            }
+          },
+          "description": "it has a grid container"
         },
         "DiscountBanner": {
           "count": 1,
-          "location": "",
-          "children": {},
-          "description": "",
-          "children_orientation_description": ""
+          "location": "it is below PopularSales",
+          "children":{
+            "image":1,
+            "input":1,
+            "Get the Coupon":1
+          },
+          "description": "it has a image and input and Get the Coupon button"
         }
       },
-      "description": ""
+      "description": "it has Banner and ServiceBanner and DesignCardsSections and CampaignCountDown and BrandSection and ProductsAds and NewArrival and PopularSales and DiscountBanner"
     },
     "Footer": {
       "count": 1,
@@ -209,15 +261,15 @@
           "count": 1,
           "location": "it is bottom last part of Footer and page",
           "children": {
-            "footerIconsContainer":{
-                "count":1,
-                "location":"left side in footerBottom",
-                "description":"it is a flex container contains icons and text"
+            "footerIconsContainer": {
+              "count": 1,
+              "location": "left side in footerBottom",
+              "description": "it is a flex container contains icons and text"
             },
-            "paymentImage":{
-                "count":1,
-                "location":"right side in footerBottom",
-                "description":"it is an image"
+            "paymentImage": {
+              "count": 1,
+              "location": "right side in footerBottom",
+              "description": "it is an image"
             }
           },
           "description": "it is a flex container",
