@@ -4,7 +4,6 @@ import ProductsAds from "../ProductsAds";
 import Banner from "./Banner";
 import DesignCardsSection from "../SectionStyles/DesignCardsSection";
 import datas from "../../mock_data/products.json";
-import CampaignCountDown from "./CampaignCountDown";
 import NewArrival from "../SectionStyles/NewArrival";
 import PopularSales from "../SectionStyles/PopularSales";
 import Layout from "../Layout";
@@ -24,7 +23,6 @@ function Index() {
         className="new-products mb-[60px]"
       />
       <BrandSection className="mb-[60px]" />
-      <CampaignCountDown lastDate="2023-10-04 4:00:00" className="mb-[60px]" />
       <DesignCardsSection
         products={products.slice(20, 24)}
         sectionTitle="Feature Design"

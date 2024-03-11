@@ -21,7 +21,6 @@
     "ProductCardTwo",
     "ViewMoreTitle",
     "BrandSection",
-    "CampaignCountDown",
     "ProductsAds",
     "NewArrival",
     "PopularSales",
@@ -155,7 +154,7 @@
         },
         "DesignCardsSection": {
           "count": 2,
-          "location": "one is below ServiceBanner and other is below CampaignCountDown",
+          "location": "one is below ServiceBanner and other is below BrandSection",
           "children": {
             "ProductCardTwo": {
               "count": 4,
@@ -172,20 +171,8 @@
         },
         "BrandSection": {
           "count": 1,
-          "location": "below DesignCardsSection and above CampaignCountDown",
+          "location": "in between DesignCardsSections",
           "description": "it has a grid container and 12 images as grid items"
-        },
-        "CampaignCountDown": {
-          "count": 1,
-          "location": "below BrandSection",
-          "children": {
-            "Days": 1,
-            "Hours": 1,
-            "Minutes": 1,
-            "Seconds": 1
-          },
-          "description": "it has flex containers",
-          "children_orientation_description": "(Days,Hours,Minutes,Seconds)-->all are flex containers"
         },
         "ProductsAds": {
           "count": 2,
@@ -237,7 +224,7 @@
           "description": "it has a image and input and Get the Coupon button"
         }
       },
-      "description": "it has Banner and ServiceBanner and DesignCardsSections and CampaignCountDown and BrandSection and ProductsAds and NewArrival and PopularSales and DiscountBanner"
+      "description": "it has Banner and ServiceBanner and DesignCardsSections and BrandSection and ProductsAds and NewArrival and PopularSales and DiscountBanner"
     },
     "Footer": {
       "count": 1,
@@ -283,5 +270,5 @@
 
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["deleted CampaignCountDown"]
 }
