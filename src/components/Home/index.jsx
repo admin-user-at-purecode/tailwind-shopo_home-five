@@ -9,14 +9,12 @@ import NewArrival from "../SectionStyles/NewArrival";
 import PopularSales from "../SectionStyles/PopularSales";
 import Layout from "../Layout";
 import DiscountBanner from "./DiscountBanner";
-import ServiceBanner from "./ServiceBanner";
 
 function Index() {
   const { products } = datas;
   return (
     <Layout childrenClasses=" pt-0">
       <Banner className="mb-[60px]" />
-      <ServiceBanner/>
       <DesignCardsSection
         products={products.slice(16, 20)}
         sectionTitle="Trendy Design"
