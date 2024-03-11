@@ -1,5 +1,4 @@
 import React from "react";
-import BrandSection from "../BrandSection";
 import ProductsAds from "../ProductsAds";
 import Banner from "./Banner";
 import DesignCardsSection from "../SectionStyles/DesignCardsSection";
@@ -23,7 +22,6 @@ function Index() {
         seeMoreUrl="/all-products"
         className="new-products mb-[60px]"
       />
-      <BrandSection className="mb-[60px]" />
       <CampaignCountDown lastDate="2023-10-04 4:00:00" className="mb-[60px]" />
       <DesignCardsSection
         products={products.slice(20, 24)}

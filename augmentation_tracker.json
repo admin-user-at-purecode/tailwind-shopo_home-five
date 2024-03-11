@@ -20,7 +20,6 @@
     "ProductCardOne",
     "ProductCardTwo",
     "ViewMoreTitle",
-    "BrandSection",
     "CampaignCountDown",
     "ProductsAds",
     "NewArrival",
@@ -170,14 +169,9 @@
           },
           "description": "it has a grid container"
         },
-        "BrandSection": {
-          "count": 1,
-          "location": "below DesignCardsSection and above CampaignCountDown",
-          "description": "it has a grid container and 12 images as grid items"
-        },
         "CampaignCountDown": {
           "count": 1,
-          "location": "below BrandSection",
+          "location": "below DesignCardsSection",
           "children": {
             "Days": 1,
             "Hours": 1,
@@ -237,7 +231,7 @@
           "description": "it has a image and input and Get the Coupon button"
         }
       },
-      "description": "it has Banner and ServiceBanner and DesignCardsSections and CampaignCountDown and BrandSection and ProductsAds and NewArrival and PopularSales and DiscountBanner"
+      "description": "it has Banner and ServiceBanner and DesignCardsSections and CampaignCountDown and ProductsAds and NewArrival and PopularSales and DiscountBanner"
     },
     "Footer": {
       "count": 1,
@@ -283,5 +277,5 @@
 
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["deleted BrandSection in Home"]
 }
