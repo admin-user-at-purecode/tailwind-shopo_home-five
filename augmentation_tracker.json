@@ -154,8 +154,8 @@
           "children_orientation_description": "(Free Shipping,Free Return,Secure Payment,Best Quality)-->all are flex containers"
         },
         "DesignCardsSection": {
-          "count": 2,
-          "location": "one is below ServiceBanner and other is below CampaignCountDown",
+          "count": 1,
+          "location": "one is below ServiceBanner",
           "children": {
             "ProductCardTwo": {
               "count": 4,
@@ -237,7 +237,7 @@
           "description": "it has a image and input and Get the Coupon button"
         }
       },
-      "description": "it has Banner and ServiceBanner and DesignCardsSections and CampaignCountDown and BrandSection and ProductsAds and NewArrival and PopularSales and DiscountBanner"
+      "description": "it has Banner and ServiceBanner and DesignCardsSection and CampaignCountDown and BrandSection and ProductsAds and NewArrival and PopularSales and DiscountBanner"
     },
     "Footer": {
       "count": 1,
