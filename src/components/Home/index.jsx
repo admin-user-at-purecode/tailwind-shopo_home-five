@@ -1,7 +1,6 @@
 import React from "react";
 import BrandSection from "../BrandSection";
 import ProductsAds from "../ProductsAds";
-import Banner from "./Banner";
 import DesignCardsSection from "../SectionStyles/DesignCardsSection";
 import datas from "../../mock_data/products.json";
 import CampaignCountDown from "./CampaignCountDown";
@@ -15,7 +14,6 @@ function Index() {
   const { products } = datas;
   return (
     <Layout childrenClasses=" pt-0">
-      <Banner className="mb-[60px]" />
       <ServiceBanner/>
       <DesignCardsSection
         products={products.slice(16, 20)}

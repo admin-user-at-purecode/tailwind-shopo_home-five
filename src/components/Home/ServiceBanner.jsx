@@ -2,7 +2,7 @@ import Star from "../svg/Star";
 
 export default function ServiceBanner() {
   return (
-    <div className="container-x mx-auto mb-[60px]">
+    <div className="container-x mx-auto mb-[60px] mt-[60px]">
       <div
         data-aos="fade-up"
         style={{
