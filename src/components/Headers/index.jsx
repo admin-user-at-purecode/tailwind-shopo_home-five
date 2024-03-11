@@ -33,7 +33,7 @@ export default function Header({ className, drawerAction }) {
                 height="36"
                 src={`${
                   import.meta.env.VITE_PUBLIC_URL
-                }/src/assets/images/logo-5.svg`}
+                }/src/assets/icons/logo-5.svg`}
                 alt="logo"
               />
             </a>
