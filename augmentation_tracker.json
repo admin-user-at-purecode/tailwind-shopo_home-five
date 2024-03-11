@@ -188,13 +188,13 @@
           "children_orientation_description": "(Days,Hours,Minutes,Seconds)-->all are flex containers"
         },
         "ProductsAds": {
-          "count": 2,
-          "location": "one is above NewArrival and other is below NewArrival",
+          "count": 1,
+          "location": "it is below NewArrival",
           "description": "it is an image"
         },
         "NewArrival": {
           "count": 1,
-          "location": "In between two ProductsAds",
+          "location": "above ProductsAds",
           "children": {
             "ProductCardTwo": {
               "count": 12,
@@ -283,5 +283,5 @@
 
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["deleted ProductsAds above NewArrival"]
 }
