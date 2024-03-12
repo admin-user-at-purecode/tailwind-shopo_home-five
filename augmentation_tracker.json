@@ -1,287 +1,269 @@
 {
-  "theme_augmentations": {
-    "color": "#95D7DE",
-    "font": "sans-serif",
-    "size": "12px",
-    "background": "white"
-  },
-  "component_names": [
-    "Headers",
-    "TopBar",
-    "SearchBox",
-    "Selectbox",
-    "Middlebar",
-    "Navbar",
-    "Home",
-    "Banner",
-    "SliderCom",
-    "ServiceBanner",
-    "DesignCardsSection",
-    "ProductCardOne",
-    "ProductCardTwo",
-    "ViewMoreTitle",
-    "BrandSection",
-    "CampaignCountDown",
-    "ProductsAds",
-    "NewArrival",
-    "PopularSales",
-    "DiscountBanner",
-    "Footer"
-  ],
-  "component_information": {
-    "Headers": {
-      "count": 1,
-      "location": "top of the page",
-      "children": {
-        "TopBar": {
-          "count": 1,
-          "location": "first top part of Headers",
-          "children": {
-            "topbar-nav": {
-              "count": 1,
-              "location": "left side of TopBar",
-              "children": {
-                "Account": 1,
-                "Track Order": 1,
-                "Support": 1
-              },
-              "description": "it is a list which is flex",
-              "children_orientation_description": "(Account,Track Order,Support)-->all are list items"
-            },
-            "Selectbox": {
-              "count": 3,
-              "location": "right side of TopBar",
-              "description": "it is button to select among list items"
-            }
-          },
-          "description": "it is a flex container",
-          "children_orientation_description": "topbar-nav is a flex container of list"
-        },
-        "Middlebar": {
-          "count": 1,
-          "location": "middle part of Headers and below TopBar",
-          "children": {
-            "logo": {
-              "count": 1,
-              "location": "left side of Middlebar",
-              "description": "it is an icon"
-            },
-            "Selectbox": {
-              "count": 1,
-              "location": "center of middlebar",
-              "description": "it is a flex container"
-            },
-            "iconsContainer": {
-              "count": 1,
-              "location": "right side of Middlebar",
-              "children": {
-                "icon": 4
-              },
-              "description": "it is a flex container",
-              "children_orientation_description": "icon is an icon"
-            }
-          },
-          "description": "it is a flex container",
-          "children_orientation_description": "logo is a icon and iconsContainer is a flex container has four icons"
-        },
-        "Navbar": {
-          "count": 1,
-          "location": "third bottom part of Headers and below Middlebar",
-          "children": {
-            "All Categories": {
-              "count": 1,
-              "location": "left side of Navbar",
-              "description": "it is flex container inside button"
-            },
-            "nav-wrapper": {
-              "count": 1,
-              "location": "center of Navbar",
-              "children": {
-                "Homepage": 1,
-                "Shop": 1,
-                "Pages": 1,
-                "About": 1,
-                "Blog": 1,
-                "Contact": 1
-              },
-              "description": "it is a list which is flex",
-              "children_orientation_description": "(HomePage,Shop,Pages,About,Blog,Contact)-->all are list items"
-            },
-            "Become_a_Seller_Container": {
-              "count": 1,
-              "location": "right side of Navbar",
-              "description": "it is flex container"
-            }
-          },
-          "description": "it is a flex container",
-          "children_orientation_description": "All Categories is a button and (nav-wrapper,Become_a_Seller_Container)-->both are flex containers"
-        }
-      },
-      "description": "it has TopBar and Middlebar and Navbar in vertical direction"
+    "theme_augmentations": {
+        "color": "#95D7DE",
+        "font": "sans-serif",
+        "size": "12px",
+        "background": "white"
     },
-    "Home": {
-      "count": 1,
-      "location": "below Headers and above Footer",
-      "children": {
-        "Banner": {
-          "count": 1,
-          "location": "top of the Home",
-          "children": {
-            "SliderCom": {
-              "count": 1,
-              "location": "inside the Banner",
-              "description": "it will Slide the images"
+    "component_names": [
+        "Headers",
+        "TopBar",
+        "SearchBox",
+        "Selectbox",
+        "Middlebar",
+        "Navbar",
+        "Home",
+        "Banner",
+        "SliderCom",
+        "ServiceBanner",
+        "DesignCardsSection",
+        "ProductCardOne",
+        "ProductCardTwo",
+        "ViewMoreTitle",
+        "BrandSection",
+        "CampaignCountDown",
+        "ProductsAds",
+        "PopularSales",
+        "DiscountBanner",
+        "Footer"
+    ],
+    "component_information": {
+        "Headers": {
+            "count": 1,
+            "location": "top of the page",
+            "children": {
+                "TopBar": {
+                    "count": 1,
+                    "location": "first top part of Headers",
+                    "children": {
+                        "topbar-nav": {
+                            "count": 1,
+                            "location": "left side of TopBar",
+                            "children": {
+                                "Account": 1,
+                                "Track Order": 1,
+                                "Support": 1
+                            },
+                            "description": "it is a list which is flex",
+                            "children_orientation_description": "(Account,Track Order,Support)-->all are list items"
+                        },
+                        "Selectbox": {
+                            "count": 3,
+                            "location": "right side of TopBar",
+                            "description": "it is button to select among list items"
+                        }
+                    },
+                    "description": "it is a flex container",
+                    "children_orientation_description": "topbar-nav is a flex container of list"
+                },
+                "Middlebar": {
+                    "count": 1,
+                    "location": "middle part of Headers and below TopBar",
+                    "children": {
+                        "logo": {
+                            "count": 1,
+                            "location": "left side of Middlebar",
+                            "description": "it is an icon"
+                        },
+                        "Selectbox": {
+                            "count": 1,
+                            "location": "center of middlebar",
+                            "description": "it is a flex container"
+                        },
+                        "iconsContainer": {
+                            "count": 1,
+                            "location": "right side of Middlebar",
+                            "children": {
+                                "icon": 4
+                            },
+                            "description": "it is a flex container",
+                            "children_orientation_description": "icon is an icon"
+                        }
+                    },
+                    "description": "it is a flex container",
+                    "children_orientation_description": "logo is a icon and iconsContainer is a flex container has four icons"
+                },
+                "Navbar": {
+                    "count": 1,
+                    "location": "third bottom part of Headers and below Middlebar",
+                    "children": {
+                        "All Categories": {
+                            "count": 1,
+                            "location": "left side of Navbar",
+                            "description": "it is flex container inside button"
+                        },
+                        "nav-wrapper": {
+                            "count": 1,
+                            "location": "center of Navbar",
+                            "children": {
+                                "Homepage": 1,
+                                "Shop": 1,
+                                "Pages": 1,
+                                "About": 1,
+                                "Blog": 1,
+                                "Contact": 1
+                            },
+                            "description": "it is a list which is flex",
+                            "children_orientation_description": "(HomePage,Shop,Pages,About,Blog,Contact)-->all are list items"
+                        },
+                        "Become_a_Seller_Container": {
+                            "count": 1,
+                            "location": "right side of Navbar",
+                            "description": "it is flex container"
+                        }
+                    },
+                    "description": "it is a flex container",
+                    "children_orientation_description": "All Categories is a button and (nav-wrapper,Become_a_Seller_Container)-->both are flex containers"
+                }
             },
-            "Shop Now": {
-              "count": 1,
-              "location": "inside the Banner",
-              "description": "it is a flex container"
-            }
-          },
-          "description": "it is a image which has SliderCom",
-          "children_orientation_description": "Shop Now is a flex container"
+            "description": "it has TopBar and Middlebar and Navbar in vertical direction"
         },
-        "ServiceBanner": {
-          "count": 1,
-          "location": "below the Banner",
-          "children": {
-            "Free Shipping": 1,
-            "Free Return": 1,
-            "Secure Payment": 1,
-            "Best Quality": 1
-          },
-          "description": "it has four flex containers",
-          "children_orientation_description": "(Free Shipping,Free Return,Secure Payment,Best Quality)-->all are flex containers"
-        },
-        "DesignCardsSection": {
-          "count": 2,
-          "location": "one is below ServiceBanner and other is below CampaignCountDown",
-          "children": {
-            "ProductCardTwo": {
-              "count": 4,
-              "location": "inside DesignCardsSection",
-              "description": "it is a grid item and has a Product image"
+        "Home": {
+            "count": 1,
+            "location": "below Headers and above Footer",
+            "children": {
+                "Banner": {
+                    "count": 1,
+                    "location": "top of the Home",
+                    "children": {
+                        "SliderCom": {
+                            "count": 1,
+                            "location": "inside the Banner",
+                            "description": "it will Slide the images"
+                        },
+                        "Shop Now": {
+                            "count": 1,
+                            "location": "inside the Banner",
+                            "description": "it is a flex container"
+                        }
+                    },
+                    "description": "it is a image which has SliderCom",
+                    "children_orientation_description": "Shop Now is a flex container"
+                },
+                "ServiceBanner": {
+                    "count": 1,
+                    "location": "below the Banner",
+                    "children": {
+                        "Free Shipping": 1,
+                        "Free Return": 1,
+                        "Secure Payment": 1,
+                        "Best Quality": 1
+                    },
+                    "description": "it has four flex containers",
+                    "children_orientation_description": "(Free Shipping,Free Return,Secure Payment,Best Quality)-->all are flex containers"
+                },
+                "DesignCardsSection": {
+                    "count": 2,
+                    "location": "one is below ServiceBanner and other is below CampaignCountDown",
+                    "children": {
+                        "ProductCardTwo": {
+                            "count": 4,
+                            "location": "inside DesignCardsSection",
+                            "description": "it is a grid item and has a Product image"
+                        },
+                        "ViewMoreTitle": {
+                            "count": 1,
+                            "location": "right top side of DesignCardsSection",
+                            "description": "it is a flex container"
+                        }
+                    },
+                    "description": "it has a grid container"
+                },
+                "BrandSection": {
+                    "count": 1,
+                    "location": "below DesignCardsSection and above CampaignCountDown",
+                    "description": "it has a grid container and 12 images as grid items"
+                },
+                "CampaignCountDown": {
+                    "count": 1,
+                    "location": "below BrandSection",
+                    "children": {
+                        "Days": 1,
+                        "Hours": 1,
+                        "Minutes": 1,
+                        "Seconds": 1
+                    },
+                    "description": "it has flex containers",
+                    "children_orientation_description": "(Days,Hours,Minutes,Seconds)-->all are flex containers"
+                },
+                "ProductsAds": {
+                    "count": 2,
+                    "location": "one is below DesignCardsSection and other is above PopularSales",
+                    "description": "it is an image"
+                },
+                "PopularSales": {
+                    "count": 1,
+                    "location": "it is above DiscountBanner",
+                    "children": {
+                        "ProductCardOne": {
+                            "count": 12,
+                            "location": "inside PopularSales",
+                            "description": "it is a grid item and has a Product image"
+                        },
+                        "ViewMoreTitle": {
+                            "count": 1,
+                            "location": "right top side of PopularSales",
+                            "description": "it is a flex container"
+                        }
+                    },
+                    "description": "it has a grid container"
+                },
+                "DiscountBanner": {
+                    "count": 1,
+                    "location": "it is below PopularSales",
+                    "children": {
+                        "image": 1,
+                        "input": 1,
+                        "Get the Coupon": 1
+                    },
+                    "description": "it has a image and input and Get the Coupon button"
+                }
             },
-            "ViewMoreTitle": {
-              "count": 1,
-              "location": "right top side of DesignCardsSection",
-              "description": "it is a flex container"
-            }
-          },
-          "description": "it has a grid container"
+            "description": "it has Banner and ServiceBanner and DesignCardsSections and CampaignCountDown and BrandSection and ProductsAds and PopularSales and DiscountBanner"
         },
-        "BrandSection": {
-          "count": 1,
-          "location": "below DesignCardsSection and above CampaignCountDown",
-          "description": "it has a grid container and 12 images as grid items"
-        },
-        "CampaignCountDown": {
-          "count": 1,
-          "location": "below BrandSection",
-          "children": {
-            "Days": 1,
-            "Hours": 1,
-            "Minutes": 1,
-            "Seconds": 1
-          },
-          "description": "it has flex containers",
-          "children_orientation_description": "(Days,Hours,Minutes,Seconds)-->all are flex containers"
-        },
-        "ProductsAds": {
-          "count": 2,
-          "location": "one is above NewArrival and other is below NewArrival",
-          "description": "it is an image"
-        },
-        "NewArrival": {
-          "count": 1,
-          "location": "In between two ProductsAds",
-          "children": {
-            "ProductCardTwo": {
-              "count": 12,
-              "location": "inside NewArrival",
-              "description": "it is a grid item and has a Product image"
+        "Footer": {
+            "count": 1,
+            "location": "bottom of the page and below Home and DiscountBanner",
+            "children": {
+                "footerListItemsContainer": {
+                    "count": 1,
+                    "location": "first top part of Footer",
+                    "children": {
+                        "logo": {
+                            "count": 1,
+                            "location": "left top of footerListItemsContainer",
+                            "description": "it is a icon"
+                        },
+                        "listItems": 15
+                    },
+                    "description": "it is a flex container",
+                    "children_orientation_description": "logo is a icon and listItems are list items"
+                },
+                "footerBottom": {
+                    "count": 1,
+                    "location": "it is bottom last part of Footer and page",
+                    "children": {
+                        "footerIconsContainer": {
+                            "count": 1,
+                            "location": "left side in footerBottom",
+                            "description": "it is a flex container contains icons and text"
+                        },
+                        "paymentImage": {
+                            "count": 1,
+                            "location": "right side in footerBottom",
+                            "description": "it is an image"
+                        }
+                    },
+                    "description": "it is a flex container",
+                    "children_orientation_description": "footerIconsContainer is a flex container and paymentImage is an image"
+                }
             },
-            "ViewMoreTitle": {
-              "count": 1,
-              "location": "right top side of NewArrival",
-              "description": "it is a flex container"
-            }
-          },
-          "description": "it has a grid container"
-        },
-        "PopularSales": {
-          "count": 1,
-          "location": "it is above DiscountBanner",
-          "children": {
-            "ProductCardOne": {
-              "count": 12,
-              "location": "inside PopularSales",
-              "description": "it is a grid item and has a Product image"
-            },
-            "ViewMoreTitle": {
-              "count": 1,
-              "location": "right top side of PopularSales",
-              "description": "it is a flex container"
-            }
-          },
-          "description": "it has a grid container"
-        },
-        "DiscountBanner": {
-          "count": 1,
-          "location": "it is below PopularSales",
-          "children":{
-            "image":1,
-            "input":1,
-            "Get the Coupon":1
-          },
-          "description": "it has a image and input and Get the Coupon button"
+            "description": "last bottom of the page which contains logo and list items and icons and image",
+            "children_orientation_description": "(footerListItemsContainer,footerBottom)-->both are flex containers"
         }
-      },
-      "description": "it has Banner and ServiceBanner and DesignCardsSections and CampaignCountDown and BrandSection and ProductsAds and NewArrival and PopularSales and DiscountBanner"
     },
-    "Footer": {
-      "count": 1,
-      "location": "bottom of the page and below Home and DiscountBanner",
-      "children": {
-        "footerListItemsContainer": {
-          "count": 1,
-          "location": "first top part of Footer",
-          "children": {
-            "logo": {
-              "count": 1,
-              "location": "left top of footerListItemsContainer",
-              "description": "it is a icon"
-            },
-            "listItems": 15
-          },
-          "description": "it is a flex container",
-          "children_orientation_description": "logo is a icon and listItems are list items"
-        },
-        "footerBottom": {
-          "count": 1,
-          "location": "it is bottom last part of Footer and page",
-          "children": {
-            "footerIconsContainer": {
-              "count": 1,
-              "location": "left side in footerBottom",
-              "description": "it is a flex container contains icons and text"
-            },
-            "paymentImage": {
-              "count": 1,
-              "location": "right side in footerBottom",
-              "description": "it is an image"
-            }
-          },
-          "description": "it is a flex container",
-          "children_orientation_description": "footerIconsContainer is a flex container and paymentImage is an image"
-        }
-      },
-      "description": "last bottom of the page which contains logo and list items and icons and image",
-      "children_orientation_description": "(footerListItemsContainer,footerBottom)-->both are flex containers"
-    }
-  },
 
-  "functionality": {},
-  "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+    "functionality": {},
+    "sizing_updates": [],
+    "screen_and_layout_augmentations": ["deleted NewArrival in Home"]
 }
