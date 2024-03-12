@@ -168,7 +168,7 @@
               "description": "it is a flex container"
             }
           },
-          "description": "it has a grid container"
+          "description": "it has a grid container has 3 Cards in a row"
         },
         "BrandSection": {
           "count": 1,
@@ -283,5 +283,5 @@
 
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["In DesignCardsSection 4 ProductCards in a row changed to 3 ProductCards in a row"]
 }
