@@ -65,7 +65,7 @@
               "location": "left side of Middlebar",
               "description": "it is an icon"
             },
-            "Selectbox": {
+            "SearchBox": {
               "count": 1,
               "location": "center of middlebar",
               "description": "it is a flex container"
