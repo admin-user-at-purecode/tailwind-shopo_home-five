@@ -42,11 +42,6 @@ function Index() {
         className="mb-[60px]"
       />
 
-      <ProductsAds
-        sectionHeight="164"
-        ads={[`${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/ads-4.png`]}
-        className="products-ads-section mb-[60px]"
-      />
       <PopularSales
         products={products.slice(16, 28)}
         sectionTitle="Popular Sales"
