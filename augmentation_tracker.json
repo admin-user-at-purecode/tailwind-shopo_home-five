@@ -283,5 +283,5 @@
 
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["In BrandSection gap-1 is applied to a grid container"]
 }
