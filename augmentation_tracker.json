@@ -188,8 +188,8 @@
           "children_orientation_description": "(Days,Hours,Minutes,Seconds)-->all are flex containers"
         },
         "ProductsAds": {
-          "count": 2,
-          "location": "one is above NewArrival and other is below NewArrival",
+          "count": 3,
+          "location": "two are above NewArrival and other is below NewArrival",
           "description": "it is an image"
         },
         "NewArrival": {
@@ -283,5 +283,5 @@
 
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["added third ProductsAds above NewArrival"]
 }
