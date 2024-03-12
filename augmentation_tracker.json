@@ -148,9 +148,9 @@
             "Free Shipping": 1,
             "Free Return": 1,
             "Secure Payment": 1,
-            "Best Quality": 1
+            "Best Quality": 2
           },
-          "description": "it has four flex containers",
+          "description": "it has five flex containers",
           "children_orientation_description": "(Free Shipping,Free Return,Secure Payment,Best Quality)-->all are flex containers"
         },
         "DesignCardsSection": {
@@ -283,5 +283,5 @@
 
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["In ServiceBanner added another flex container"]
 }
