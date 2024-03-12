@@ -43,10 +43,11 @@
               "children": {
                 "Account": 1,
                 "Track Order": 1,
-                "Support": 1
+                "Support": 1,
+                "Others":1
               },
               "description": "it is a list which is flex",
-              "children_orientation_description": "(Account,Track Order,Support)-->all are list items"
+              "children_orientation_description": "(Account,Track Order,Support,Others)-->all are list items"
             },
             "Selectbox": {
               "count": 3,
@@ -283,5 +284,5 @@
 
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["added (Others) list item in topbar-nav"]
 }
