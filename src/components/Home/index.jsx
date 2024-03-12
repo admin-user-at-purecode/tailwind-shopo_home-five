@@ -6,7 +6,6 @@ import DesignCardsSection from "../SectionStyles/DesignCardsSection";
 import datas from "../../mock_data/products.json";
 import CampaignCountDown from "./CampaignCountDown";
 import NewArrival from "../SectionStyles/NewArrival";
-import PopularSales from "../SectionStyles/PopularSales";
 import Layout from "../Layout";
 import DiscountBanner from "./DiscountBanner";
 import ServiceBanner from "./ServiceBanner";
@@ -46,12 +45,6 @@ function Index() {
         sectionHeight="164"
         ads={[`${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/ads-4.png`]}
         className="products-ads-section mb-[60px]"
-      />
-      <PopularSales
-        products={products.slice(16, 28)}
-        sectionTitle="Popular Sales"
-        seeMoreUrl="/all-products"
-        className="mb-[120px]"
       />
       <DiscountBanner />
     </Layout>

@@ -24,7 +24,6 @@
     "CampaignCountDown",
     "ProductsAds",
     "NewArrival",
-    "PopularSales",
     "DiscountBanner",
     "Footer"
   ],
@@ -209,26 +208,9 @@
           },
           "description": "it has a grid container"
         },
-        "PopularSales": {
-          "count": 1,
-          "location": "it is above DiscountBanner",
-          "children": {
-            "ProductCardOne": {
-              "count": 12,
-              "location": "inside PopularSales",
-              "description": "it is a grid item and has a Product image"
-            },
-            "ViewMoreTitle": {
-              "count": 1,
-              "location": "right top side of PopularSales",
-              "description": "it is a flex container"
-            }
-          },
-          "description": "it has a grid container"
-        },
         "DiscountBanner": {
           "count": 1,
-          "location": "it is below PopularSales",
+          "location": "it is below ProductsAds",
           "children":{
             "image":1,
             "input":1,
@@ -237,7 +219,7 @@
           "description": "it has a image and input and Get the Coupon button"
         }
       },
-      "description": "it has Banner and ServiceBanner and DesignCardsSections and CampaignCountDown and BrandSection and ProductsAds and NewArrival and PopularSales and DiscountBanner"
+      "description": "it has Banner and ServiceBanner and DesignCardsSections and CampaignCountDown and BrandSection and ProductsAds and NewArrival and DiscountBanner"
     },
     "Footer": {
       "count": 1,
@@ -283,5 +265,5 @@
 
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["deleted PopularSales in Home"]
 }
