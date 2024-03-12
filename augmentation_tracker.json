@@ -158,7 +158,7 @@
           "location": "one is below ServiceBanner and other is below CampaignCountDown",
           "children": {
             "ProductCardTwo": {
-              "count": 4,
+              "count": 8,
               "location": "inside DesignCardsSection",
               "description": "it is a grid item and has a Product image"
             },
@@ -283,5 +283,5 @@
 
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["In DesignCardsSection added 4 more ProductCards"]
 }
