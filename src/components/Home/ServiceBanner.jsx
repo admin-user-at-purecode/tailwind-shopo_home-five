@@ -10,7 +10,7 @@ export default function ServiceBanner() {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}
-        className="best-services w-full flex flex-col space-y-10 lg:space-y-0 lg:flex-row lg:justify-between lg:items-center lg:h-[110px] px-10 lg:py-0 py-10"
+        className="best-services w-full flex flex-col space-y-10 lg:space-y-0 lg:flex-row lg:justify-end lg:items-center lg:h-[110px] px-10 lg:py-0 py-10"
       >
         <div className="item">
           <div className="flex space-x-5 items-center">
