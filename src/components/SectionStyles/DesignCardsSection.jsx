@@ -27,17 +27,6 @@ export default function DesignCardsSection({
                               </div>
                           )}
                       </DataIteration>
-                      <DataIteration
-                          datas={products}
-                          startLength={0}
-                          endLength={products.length}
-                      >
-                          {({ datas }) => (
-                              <div key={datas.id} className="item">
-                                  <ProductCardTwo datas={datas} />
-                              </div>
-                          )}
-                      </DataIteration>
                   </div>
               </div>
           </ViewMoreTitle>

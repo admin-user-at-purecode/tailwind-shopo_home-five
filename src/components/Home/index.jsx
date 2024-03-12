@@ -18,7 +18,7 @@ function Index() {
       <Banner className="mb-[60px]" />
       <ServiceBanner/>
       <DesignCardsSection
-        products={products.slice(16, 20)}
+        products={products.slice(16, 24)}
         sectionTitle="Trendy Design"
         seeMoreUrl="/all-products"
         className="new-products mb-[60px]"
@@ -26,7 +26,7 @@ function Index() {
       <BrandSection className="mb-[60px]" />
       <CampaignCountDown lastDate="2023-10-04 4:00:00" className="mb-[60px]" />
       <DesignCardsSection
-        products={products.slice(20, 24)}
+        products={products.slice(20, 28)}
         sectionTitle="Feature Design"
         seeMoreUrl="/all-products"
         className="new-products mb-[60px]"
