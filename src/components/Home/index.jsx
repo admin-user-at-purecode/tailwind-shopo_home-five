@@ -38,7 +38,7 @@ function Index() {
       <NewArrival
         sectionTitle="New Arrival"
         seeMoreUrl="/all-products"
-        products={products.slice(16, 28)}
+        products={products.slice(12, 28)}
         className="mb-[60px]"
       />
 
