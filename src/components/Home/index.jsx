@@ -8,7 +8,6 @@ import CampaignCountDown from "./CampaignCountDown";
 import NewArrival from "../SectionStyles/NewArrival";
 import PopularSales from "../SectionStyles/PopularSales";
 import Layout from "../Layout";
-import DiscountBanner from "./DiscountBanner";
 import ServiceBanner from "./ServiceBanner";
 
 function Index() {
@@ -53,7 +52,6 @@ function Index() {
         seeMoreUrl="/all-products"
         className="mb-[120px]"
       />
-      <DiscountBanner />
     </Layout>
   );
 }
