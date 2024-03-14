@@ -131,15 +131,9 @@
               "count": 1,
               "location": "inside the Banner",
               "description": "it will Slide the images"
-            },
-            "Shop Now": {
-              "count": 1,
-              "location": "inside the Banner",
-              "description": "it is a flex container"
             }
           },
-          "description": "it is a image which has SliderCom",
-          "children_orientation_description": "Shop Now is a flex container"
+          "description": "it is a image which has SliderCom"
         },
         "ServiceBanner": {
           "count": 1,
@@ -229,10 +223,10 @@
         "DiscountBanner": {
           "count": 1,
           "location": "it is below PopularSales",
-          "children":{
-            "image":1,
-            "input":1,
-            "Get the Coupon":1
+          "children": {
+            "image": 1,
+            "input": 1,
+            "Get the Coupon": 1
           },
           "description": "it has a image and input and Get the Coupon button"
         }
@@ -283,5 +277,5 @@
 
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["deleted (Shop Now) flex container in Banner"]
 }
