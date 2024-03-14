@@ -6,20 +6,17 @@ function CountDown(lastDate) {
   const [showHour, setHour] = useState(0);
   const [showMinute, setMinute] = useState(0);
   const [showSecound, setDateSecound] = useState(0);
+  const [year, setYear] = useState(0); // State to hold the year
+
   // count Down
   const provideDate = new Date(lastDate);
   // format date
-  const year = provideDate.getFullYear();
+  const _year = provideDate.getFullYear();
   const month = provideDate.getMonth();
-  //   console.log(month);
   const date = provideDate.getDate();
-  //   console.log(date);
   const hours = provideDate.getHours();
-  //   console.log(hours);
   const minutes = provideDate.getMinutes();
-  //   console.log(minutes);
   const seconds = provideDate.getSeconds();
-  //   console.log(seconds);
 
   // date calculation logic
   const _seconds = 1000;
@@ -32,7 +29,7 @@ function CountDown(lastDate) {
     const timer = setInterval(() => {
       const now = new Date();
       const distance =
-        new Date(year, month, date, hours, minutes, seconds).getTime() -
+        new Date(_year, month, date, hours, minutes, seconds).getTime() -
         now.getTime();
       if (distance < 0) {
         clearInterval(timer);
@@ -48,10 +45,12 @@ function CountDown(lastDate) {
   // effect
   useEffect(() => {
     if (lastDate !== "") {
+      setYear(_year); // Set the year state
       startInterval();
     }
-  });
-  return { showDate, showHour, showMinute, showSecound };
+  }, [lastDate]);
+
+  return { year, showDate, showHour, showMinute, showSecound }; // Include year in the return object
 }
 
 export default CountDown;

@@ -1,7 +1,7 @@
 import CountDown from "../CountDown";
 
 export default function CampaignCountDown({ className, lastDate }) {
-  const { showDate, showHour, showMinute, showSecound } = CountDown(lastDate);
+  const { showDate, showHour, showMinute, showSecound ,year} = CountDown(lastDate);
 
   return (
     <div>
@@ -21,6 +21,16 @@ export default function CampaignCountDown({ className, lastDate }) {
               <a to="/flash-sale">
                 <div className="w-full xl:p-12 p-5">
                   <div className="countdown-wrapper w-full flex space-x-[23px] mb-10">
+                  <div className="countdown-item">
+                      <div className="countdown-number sm:w-[100px] sm:h-[100px] w-[50px] h-[50px] rounded-full bg-white flex justify-center items-center">
+                        <span className="font-700 sm:text-[30px] text-[14px] text-[#EB5757]">
+                          {year}
+                        </span>
+                      </div>
+                      <p className="sm:text-[18px] text-[12px] font-500 text-center leading-8">
+                        Years
+                      </p>
+                    </div>
                     <div className="countdown-item">
                       <div className="countdown-number sm:w-[100px] sm:h-[100px] w-[50px] h-[50px] rounded-full bg-white flex justify-center items-center">
                         <span className="font-700 sm:text-[30px] text-[14px] text-[#EB5757]">
