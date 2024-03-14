@@ -29,7 +29,7 @@ function ProductCardTwo({ datas }) {
             </span>
           </a>
         </div>
-        <div className="absolute w-full h-10 px-[30px]  left-0 -bottom-10 group-hover:bottom-5 transition-all duration-300 ease-in-out">
+        <div className="absolute w-full h-10 px-[30px]  left-0 bottom-3">
           <button
             type="button"
             className="black-btn w-full h-full flex justify-center items-center"
