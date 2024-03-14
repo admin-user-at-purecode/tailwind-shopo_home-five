@@ -15,7 +15,9 @@ export default function ServiceBanner() {
         <div className="item">
           <div className="flex space-x-5 items-center">
             <div>
-              <span><Star/></span>
+              <span>
+                <Star />
+              </span>
             </div>
             <div>
               <p className="text-white text-[15px] font-700 tracking-wide mb-1">
@@ -57,23 +59,6 @@ export default function ServiceBanner() {
               </p>
               <p className="text-sm text-qgray text-white">
                 100% Secure Online Payment
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="item">
-          <div className="flex space-x-5 items-center">
-            <div>
-              <span>
-                <Star />
-              </span>
-            </div>
-            <div>
-              <p className="text-white text-[15px] font-700 tracking-wide mb-1">
-                Best Quality
-              </p>
-              <p className="text-sm text-qgray text-white">
-                Original Product Guarenteed
               </p>
             </div>
           </div>
