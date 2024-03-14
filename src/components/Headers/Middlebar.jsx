@@ -66,6 +66,13 @@ export default function Middlebar({ className }) {
                   </span>
                 </a>
               </div>
+              <div>
+                <a to="/profile">
+                  <span>
+                    <Star />
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
