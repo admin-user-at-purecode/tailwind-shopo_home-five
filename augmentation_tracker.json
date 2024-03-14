@@ -214,7 +214,7 @@
           "location": "it is above DiscountBanner",
           "children": {
             "ProductCardOne": {
-              "count": 12,
+              "count": 8,
               "location": "inside PopularSales",
               "description": "it is a grid item and has a Product image"
             },
@@ -283,5 +283,5 @@
 
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["4 ProductCards deleted in PopularSales"]
 }
