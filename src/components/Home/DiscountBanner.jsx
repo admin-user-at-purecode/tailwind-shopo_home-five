@@ -12,14 +12,14 @@ export default function DiscountBanner({ className }) {
       }}
     >
       <div className="container-x mx-auto relative h-full">
-        <div className="thumb absolute -left-[140px] -top-[87px] w-[520px] h-[394px]">
+        <div className="thumb absolute -right-[140px] -top-[87px] w-[520px] h-[394px]">
           <img
             src="/src/assets/images/discount-banner-3.1.png"
             alt=""
             className="w-full h-full object-contain"
           />
         </div>
-        <div className="flex justify-center items-center w-full h-full relative xl:left-[100px]">
+        <div className="flex justify-center items-center w-full h-full relative xl:left-[-150px]">
           <div>
             <div data-aos="fade-up">
               <h1 className="sm:text-3xl text-xl font-700 text-qblack mb-2 text-center">
