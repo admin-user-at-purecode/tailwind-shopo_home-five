@@ -51,16 +51,6 @@ export default function CampaignCountDown({ className, lastDate }) {
                         Minutes
                       </p>
                     </div>
-                    <div className="countdown-item">
-                      <div className="countdown-number sm:w-[100px] sm:h-[100px] w-[50px] h-[50px] rounded-full bg-white flex justify-center items-center">
-                        <span className="font-700 sm:text-[30px] text-[14px] text-[#EF5DA8]">
-                          {showSecound}
-                        </span>
-                      </div>
-                      <p className="sm:text-[18px] text-[12px] font-500 text-center leading-8">
-                        Seconds
-                      </p>
-                    </div>
                   </div>
                   <div className="countdown-title mb-4">
                     <h1 className="text-[44px] text-qblack font-medium">

@@ -181,11 +181,10 @@
           "children": {
             "Days": 1,
             "Hours": 1,
-            "Minutes": 1,
-            "Seconds": 1
+            "Minutes": 1
           },
           "description": "it has flex containers",
-          "children_orientation_description": "(Days,Hours,Minutes,Seconds)-->all are flex containers"
+          "children_orientation_description": "(Days,Hours,Minutes)-->all are flex containers"
         },
         "ProductsAds": {
           "count": 2,
@@ -229,10 +228,10 @@
         "DiscountBanner": {
           "count": 1,
           "location": "it is below PopularSales",
-          "children":{
-            "image":1,
-            "input":1,
-            "Get the Coupon":1
+          "children": {
+            "image": 1,
+            "input": 1,
+            "Get the Coupon": 1
           },
           "description": "it has a image and input and Get the Coupon button"
         }
@@ -283,5 +282,5 @@
 
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["deleted one flex container in CampaignCountDown"]
 }
