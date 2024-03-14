@@ -197,7 +197,7 @@
           "location": "In between two ProductsAds",
           "children": {
             "ProductCardTwo": {
-              "count": 12,
+              "count": 8,
               "location": "inside NewArrival",
               "description": "it is a grid item and has a Product image"
             },
@@ -283,5 +283,5 @@
 
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["4 ProductCards reduced in NewArrival"]
 }
