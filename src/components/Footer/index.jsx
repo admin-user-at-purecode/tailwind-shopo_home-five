@@ -165,6 +165,18 @@ export default function Footer() {
           </div>
         </div>
         <div className="bottom-bar border-t border-qgray-border lg:h-[82px] lg:flex justify-between items-center">
+          <div className="">
+            <a href="#">
+              <img
+                width="318"
+                height="28"
+                src={`${
+                  import.meta.env.VITE_PUBLIC_URL
+                }/src/assets/images/payment-getways.png`}
+                alt="payment-getways"
+              />
+            </a>
+          </div>
           <div className="flex lg:space-x-5 justify-between items-center mb-3">
             <div className="flex space-x-5 items-center">
               <Star />
@@ -183,18 +195,6 @@ export default function Footer() {
               </a>
               All rights reserved
             </span>
-          </div>
-          <div className="">
-            <a href="#">
-              <img
-                width="318"
-                height="28"
-                src={`${
-                  import.meta.env.VITE_PUBLIC_URL
-                }/src/assets/images/payment-getways.png`}
-                alt="payment-getways"
-              />
-            </a>
           </div>
         </div>
       </div>

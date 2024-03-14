@@ -263,12 +263,12 @@
           "children": {
             "footerIconsContainer": {
               "count": 1,
-              "location": "left side in footerBottom",
+              "location": "right side in footerBottom",
               "description": "it is a flex container contains icons and text"
             },
             "paymentImage": {
               "count": 1,
-              "location": "right side in footerBottom",
+              "location": "left side in footerBottom",
               "description": "it is an image"
             }
           },
@@ -283,5 +283,5 @@
 
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["In Footer paymentImage is swaped to left and footerIconsContainer to right"]
 }
