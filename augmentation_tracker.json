@@ -173,7 +173,7 @@
         "BrandSection": {
           "count": 1,
           "location": "below DesignCardsSection and above CampaignCountDown",
-          "description": "it has a grid container and 12 images as grid items"
+          "description": "it has a grid container and 15 images as grid items"
         },
         "CampaignCountDown": {
           "count": 1,
@@ -283,5 +283,5 @@
 
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["added three more images in BrandSection"]
 }
