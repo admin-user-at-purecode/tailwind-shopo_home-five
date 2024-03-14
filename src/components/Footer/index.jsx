@@ -170,6 +170,7 @@ export default function Footer() {
               <Star />
               <Star />
               <Star />
+              <Star/>
             </div>
             <span className="sm:text-base text-[10px] text-white font-300">
               ©2022
