@@ -281,7 +281,7 @@
     }
   },
 
-  "functionality": {},
+  "functionality": "removed Middlebar third icon hover dropdown functionality by removing group-hover:block",
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["removed Middlebar third icon hover dropdown functionality by removing group-hover:block"]
 }
