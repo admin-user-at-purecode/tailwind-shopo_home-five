@@ -184,7 +184,7 @@ export default function Footer() {
               All rights reserved
             </span>
           </div>
-          <div className="">
+          <div className="flex">
             <a href="#">
               <img
                 width="318"
@@ -195,6 +195,12 @@ export default function Footer() {
                 alt="payment-getways"
               />
             </a>
+            <img
+              src={`${
+                import.meta.env.VITE_PUBLIC_URL
+              }/src/assets/images/brand-12.png`}
+              alt="payment-getways" className="ml-2"
+            />
           </div>
         </div>
       </div>
