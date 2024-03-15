@@ -282,6 +282,6 @@
   },
 
   "functionality": {},
-  "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "sizing_updates": ["height of ServiceBanner is increased by using h-[200px]"],
+  "screen_and_layout_augmentations": ["height of ServiceBanner is increased by using h-[200px]"]
 }
