@@ -20,7 +20,7 @@ export default function DiscountBanner({ className }) {
           />
         </div>
         <div className="flex justify-center items-center w-full h-full relative xl:left-[100px]">
-          <div>
+          <div className="text-center">
             <div data-aos="fade-up">
               <h1 className="sm:text-3xl text-xl font-700 text-qblack mb-2 text-center">
                 Get <span className="mx-1 text-qred">20%</span> Off Discount
@@ -66,13 +66,13 @@ export default function DiscountBanner({ className }) {
                   placeholder="EMAIL ADDRESS"
                 />
               </div>
-              <button
-                type="button"
-                className="sm:w-[158px] w-[80px]  h-full bg-qh5-bwhite text-sm font-600"
-              >
-                Get the Coupon
-              </button>
             </div>
+            <button
+              type="button"
+              className="sm:w-[158px] w-[80px]  h-full bg-qh5-bwhite text-sm font-600 mt-4 p-3 "
+            >
+              Get the Coupon
+            </button>
           </div>
         </div>
       </div>
