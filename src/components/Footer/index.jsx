@@ -160,6 +160,13 @@ export default function Footer() {
                     </span>
                   </a>
                 </li>
+                <li>
+                  <a to="/">
+                    <span className="text-white text-[15px] hover:text-[#9a9a9a] hover:underline">
+                      Support
+                    </span>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>

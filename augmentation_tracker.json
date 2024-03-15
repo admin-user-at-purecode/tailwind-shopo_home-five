@@ -252,7 +252,7 @@
               "location": "left top of footerListItemsContainer",
               "description": "it is a icon"
             },
-            "listItems": 15
+            "listItems": 16 
           },
           "description": "it is a flex container",
           "children_orientation_description": "logo is a icon and listItems are list items"
@@ -283,5 +283,5 @@
 
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["added (Support) list item in listItems in footerListItemsContainer in Footer"]
 }
