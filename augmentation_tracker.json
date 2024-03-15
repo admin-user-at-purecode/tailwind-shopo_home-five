@@ -281,7 +281,7 @@
     }
   },
 
-  "functionality": {},
+  "functionality": "removed (Pages) hover dropdown functionality in nav-wrapper in Navbar",
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["removed (Pages) hover dropdown functionality in nav-wrapper in Navbar"]
 }

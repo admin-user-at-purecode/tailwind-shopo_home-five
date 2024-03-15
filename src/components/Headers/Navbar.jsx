@@ -249,34 +249,6 @@ export default function Navbar({ className }) {
                         <Star />
                       </span>
                     </span>
-                    <div className="sub-menu w-[220px] absolute left-0 top-[60px]">
-                      <div
-                        className="w-full bg-white flex justify-between items-center "
-                        style={{
-                          boxShadow: "0px 15px 50px 0px rgba(0, 0, 0, 0.14)",
-                        }}
-                      >
-                        <div className="categories-wrapper w-full h-full p-5">
-                          <div>
-                            <div className="category-items">
-                              <ul className="flex flex-col space-y-2">
-                                {pagesMenuItems.map((item, index) => (
-                                  <li key={index}>
-                                    <span
-                                      className={
-                                        "text-qgray text-sm font-400 border-b border-transparent hover:text-qyellow hover:border-qyellow"
-                                      }
-                                    >
-                                      {item.name}
-                                    </span>
-                                  </li>
-                                ))}
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </li>
                   <li>
                     <span
