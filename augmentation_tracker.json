@@ -281,7 +281,7 @@
     }
   },
 
-  "functionality": {},
+  "functionality": "(All Categories) button onclick dropdown functionality removed",
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["(All Categories) button onclick dropdown functionality removed"]
 }
