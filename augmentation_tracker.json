@@ -282,6 +282,6 @@
   },
 
   "functionality": {},
-  "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "sizing_updates": ["ServiceBanner width is reduced by using w-3/4 and centered using mx-auto"],
+  "screen_and_layout_augmentations": ["ServiceBanner width is reduced by using w-3/4 and centered using mx-auto"]
 }
