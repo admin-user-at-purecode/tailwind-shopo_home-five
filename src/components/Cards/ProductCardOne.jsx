@@ -30,6 +30,7 @@ export default function ProductCardOne({ className, datas }) {
                 {datas.offer_price}
               </span>
             </p>
+            <button className="bg-black text-white w-[100px]">Add To Cart</button>
           </div>
         </div>
       </div>
