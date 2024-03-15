@@ -102,10 +102,11 @@
                 "Pages": 1,
                 "About": 1,
                 "Blog": 1,
-                "Contact": 1
+                "Contact": 1,
+                "Others":1
               },
               "description": "it is a list which is flex",
-              "children_orientation_description": "(HomePage,Shop,Pages,About,Blog,Contact)-->all are list items"
+              "children_orientation_description": "(HomePage,Shop,Pages,About,Blog,Contact,Others)-->all are list items"
             },
             "Become_a_Seller_Container": {
               "count": 1,
@@ -283,5 +284,5 @@
 
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["added (Others) list items in nav-wrapper in Navbar"]
 }

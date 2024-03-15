@@ -305,6 +305,15 @@ export default function Navbar({ className }) {
                       <span>Contact</span>
                     </span>
                   </li>
+                  <li>
+                    <span
+                      className={
+                        "flex items-center text-sm font-600 cursor-pointer text-qblacktext"
+                      }
+                    >
+                      <span>Others</span>
+                    </span>
+                  </li>
                 </ul>
               </div>
             </div>
