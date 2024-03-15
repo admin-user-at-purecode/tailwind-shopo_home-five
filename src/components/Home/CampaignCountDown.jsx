@@ -22,7 +22,7 @@ export default function CampaignCountDown({ className, lastDate }) {
                 <div className="w-full xl:p-12 p-5">
                   <div className="countdown-wrapper w-full flex space-x-[23px] mb-10">
                     <div className="countdown-item">
-                      <div className="countdown-number sm:w-[100px] sm:h-[100px] w-[50px] h-[50px] rounded-full bg-white flex justify-center items-center">
+                      <div className="countdown-number sm:w-[100px] sm:h-[100px] w-[50px] h-[50px] rounded-md bg-white flex justify-center items-center">
                         <span className="font-700 sm:text-[30px] text-[14px] text-[#EB5757]">
                           {showDate}
                         </span>
@@ -32,7 +32,7 @@ export default function CampaignCountDown({ className, lastDate }) {
                       </p>
                     </div>
                     <div className="countdown-item">
-                      <div className="countdown-number sm:w-[100px] sm:h-[100px] w-[50px] h-[50px] rounded-full bg-white flex justify-center items-center">
+                      <div className="countdown-number sm:w-[100px] sm:h-[100px] w-[50px] h-[50px] rounded-md bg-white flex justify-center items-center">
                         <span className="font-700 sm:text-[30px] text-[14px] text-[#2F80ED]">
                           {showHour}
                         </span>
@@ -42,7 +42,7 @@ export default function CampaignCountDown({ className, lastDate }) {
                       </p>
                     </div>
                     <div className="countdown-item">
-                      <div className="countdown-number sm:w-[100px] sm:h-[100px] w-[50px] h-[50px] rounded-full bg-white flex justify-center items-center">
+                      <div className="countdown-number sm:w-[100px] sm:h-[100px] w-[50px] h-[50px] rounded-md bg-white flex justify-center items-center">
                         <span className="font-700 sm:text-[30px] text-[14px] text-[#219653]">
                           {showMinute}
                         </span>
@@ -52,7 +52,7 @@ export default function CampaignCountDown({ className, lastDate }) {
                       </p>
                     </div>
                     <div className="countdown-item">
-                      <div className="countdown-number sm:w-[100px] sm:h-[100px] w-[50px] h-[50px] rounded-full bg-white flex justify-center items-center">
+                      <div className="countdown-number sm:w-[100px] sm:h-[100px] w-[50px] h-[50px] rounded-md bg-white flex justify-center items-center">
                         <span className="font-700 sm:text-[30px] text-[14px] text-[#EF5DA8]">
                           {showSecound}
                         </span>

@@ -282,6 +282,6 @@
   },
 
   "functionality": {},
-  "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "sizing_updates": ["flex containers border radius changed from rounded-full to rounded-md in CampaignCountDown"],
+  "screen_and_layout_augmentations": ["flex containers border radius changed from rounded-full to rounded-md in CampaignCountDown"]
 }
